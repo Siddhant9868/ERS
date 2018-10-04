@@ -1,0 +1,27 @@
+<vector android:height="24dp" android:viewportHeight="1078.4"
+    android:viewportWidth="1078.4" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#0d47a1"
+        android:pathData="M678.3,820.4l37,83a413.4,413.4 0,0 0,218.2 -248.5L847,626.8A322.2,322.2 0,0 1,678.3 820.4Z"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#0d47a1"
+        android:pathData="M540.5,942.2A410.6,410.6 0,0 0,715.2 903.4l-37,-83a321.9,321.9 0,0 1,-261.3 6.3l-37,83.1A410.9,410.9 0,0 0,540.5 942.2Z"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#0d47a1"
+        android:pathData="M380,909.8l37,-83.1A322.2,322.2 0,0 1,235.6 631.6l-86.5,28.1A413.4,413.4 0,0 0,380 909.8Z"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#FF000000" android:pathData="M185.7,320.1"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#FF000000" android:pathData="M185.7,320.1"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#FF000000" android:pathData="M185.7,320.1"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#0d47a1"
+        android:pathData="M128.3,530A411.8,411.8 0,0 0,149.1 659.7l86.5,-28.1a321.3,321.3 0,0 1,28.7 -266l-78.7,-45.5A410.3,410.3 0,0 0,128.3 530Z"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#0d47a1"
+        android:pathData="M899.7,327.6l-78.8,45.4A321.7,321.7 0,0 1,847 626.8l86.4,28.1a413.1,413.1 0,0 0,-33.7 -327.3Z"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+    <path android:fillColor="#0277bd"
+        android:pathData="M540.5,117.8c-151,0 -283.1,81.3 -354.9,202.4l78.7,45.5c56.1,-94 158.7,-157 276.2,-157C661,208.6 765.9,275 820.9,373.1l78.8,-45.4C829,202.4 694.6,117.8 540.5,117.8Z"
+        android:strokeColor="#fff" android:strokeWidth="4"/>
+</vector>

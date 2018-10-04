@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#70ffffff">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/leader_board_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/todays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textAppearance="@font/latohairline"
+            android:text="Today's"
+            android:textColor="@color/orange"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/todays_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:layout_below="@+id/todays"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:gravity="center"
+            android:hint="..."
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="@dimen/ldbd_circle_rad"
+        android:visibility="gone"
+        android:layout_height="@dimen/ldbd_circle_rad"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/leader_board_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/looters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Looters"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/looters_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:gravity="center"
+            android:hint="..."
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="@dimen/ldbd_circle_rad"
+        android:layout_height="@dimen/ldbd_circle_rad"
+        android:visibility="gone"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/relativeLayout5"
+        android:layout_toStartOf="@+id/relativeLayout5"
+        android:background="@drawable/leader_board_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/f301"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:text="-301F"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/f301_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:gravity="center"
+            android:hint="..."
+            android:textColor="@color/orange"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="@dimen/ldbd_circle_rad"
+        android:visibility="gone"
+        android:layout_height="@dimen/ldbd_circle_rad"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="-12dp"
+
+        android:background="@drawable/leader_board_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/fk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:text="Foodking"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fk_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fk"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:hint="..."
+            android:textColor="@color/orange"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="@dimen/ldbd_circle_rad"
+        android:layout_height="@dimen/ldbd_circle_rad"
+        android:visibility="gone"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_toLeftOf="@+id/relativeLayout5"
+        android:layout_toStartOf="@+id/relativeLayout5"
+        android:background="@drawable/leader_board_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pitstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Pitstop"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pitstop_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:hint="..."
+            android:textColor="@color/orange"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="@dimen/ldbd_circle_rad"
+        android:visibility="gone"
+        android:layout_height="@dimen/ldbd_circle_rad"
+        android:clipToPadding="true"
+        android:layout_above="@+id/relativeLayout3"
+        android:layout_marginBottom="-12dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginStart="-20dp"
+        android:layout_toEndOf="@+id/relativeLayout2"
+        android:layout_toRightOf="@+id/relativeLayout2"
+        android:background="@drawable/leader_board_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/anc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ANC"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/anc_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:hint="..."
+            android:textColor="@color/orange"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dashboardimage"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:foregroundGravity="center"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:contentDescription="The Dashboard Image"
+        android:focusable="true"
+        android:src="@drawable/dashboard_storyuntilnow" />
+
+    <TextView
+        android:id="@+id/todays_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#0d47a1"
+        android:text="today's"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/this_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#0d47a1"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/this_sems"
+        android:layout_marginBottom="43dp"
+        android:textSize="17sp"
+        android:text="this month's" />
+
+
+    <TextView
+        android:id="@+id/this_sems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#0d47a1"
+        android:layout_alignBottom="@+id/dashboardimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:textSize="17sp"
+        android:text="this semester's" />
+
+    <TextView
+        android:id="@+id/this_sems_anc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_sems"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_mons_anc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="0dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/todays_anc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/todays_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_sems_looters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_sems"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_mons_looters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="0dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/todays_looters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/todays_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_sems_pitstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_sems"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_mons_pitstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="0dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/todays_pitsop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/todays_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_sems_301f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_sems"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_mons_301f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="0dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/todays_301f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/todays_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_sems_foodking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_sems"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_mons_foodking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="0dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/todays_foodking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/todays_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_sems_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_sems"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/this_mons_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/this_month"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginBottom="0dp"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/todays_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0277bd"
+        android:layout_above="@+id/todays_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="17sp"
+        android:text="..." />
+
+    </RelativeLayout>
+
+</RelativeLayout>

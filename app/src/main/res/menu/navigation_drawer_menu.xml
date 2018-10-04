@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+          android:id="@+id/nav_item_home"
+          android:icon="@drawable/home_icon"/>
+
+
+    <item android:title="Our Team"
+        android:id="@+id/nav_item_developer"
+        android:icon="@drawable/dev_icon"/>
+
+    <item android:title="Join Us"
+        android:id="@+id/nav_item_joinus"
+        android:icon="@drawable/join_us_icon"/>
+
+
+    <item android:title="Account Actions">
+        <menu>
+            <item
+                android:title="Expenditure Cap"
+                android:id="@+id/monthly"
+                android:icon="@drawable/monthly_icon"/>
+            <item
+                android:title="Logout"
+                android:id="@+id/logout"
+                android:icon="@drawable/account"/>
+        </menu>
+    </item>
+
+
+    <!--
+        <group android:id="@+id/group_settings_id">
+
+            <item android:title="Notifications"
+                  android:icon="@drawable/messages"/>
+            <item android:title="Help"
+                 android:icon="@drawable/help"/>
+        </group>
+   -->
+
+    </menu>

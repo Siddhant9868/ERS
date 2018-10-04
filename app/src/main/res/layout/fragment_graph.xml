@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.jjoe64.graphview.helper.GraphViewXML android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph"
+    app:seriesData="0=0;2=0;3=0;4=0"
+    app:seriesType="bar"
+    app:seriesColor="#ffffff"
+    android:background="@drawable/bg3"
+    android:padding="1000dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

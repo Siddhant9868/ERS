@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    android:fillViewport="false"
+    android:paddingBottom="20dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#70ffffff">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_dev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="#cdffffff"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:elevation="17dp">
+
+        <TextView
+            android:id="@+id/dev1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dev1_description"
+            android:layout_alignStart="@+id/dev1_description"
+            android:layout_alignTop="@+id/dev1_img"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="left"
+            android:text="Developers Tab"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dev1_description"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dev1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/dev1_img"
+            android:layout_toRightOf="@+id/dev1_img"
+            android:fontFamily="@font/montserrat_light"
+            android:gravity="left"
+            android:text="Developers Tab"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/dev1_img"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dev1_image" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_dev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeLayout_dev1"
+        android:layout_marginTop="22dp"
+        android:background="#cdffffff"
+        android:padding="10dp"
+        android:gravity="center"
+        android:elevation="17dp">
+
+        <TextView
+            android:id="@+id/dev2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dev2_description"
+            android:layout_alignStart="@+id/dev2_description"
+            android:layout_toEndOf="@+id/dev2_img"
+            android:layout_toRightOf="@+id/dev2_img"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="left"
+            android:text="Developers Tab"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dev2_description"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dev2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/dev2_img"
+            android:layout_toRightOf="@+id/dev2_img"
+            android:fontFamily="@font/montserrat_light"
+            android:gravity="left"
+            android:text="Developers Tab"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/dev2_img"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dev2_image" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_dev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeLayout_dev2"
+        android:layout_marginTop="22dp"
+        android:background="#cdffffff"
+        android:padding="10dp"
+        android:gravity="center"
+        android:elevation="17dp">
+
+        <TextView
+            android:id="@+id/dev3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dev3_description"
+            android:layout_alignStart="@+id/dev3_description"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@+id/dev3_img"
+            android:layout_toRightOf="@+id/dev3_img"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="left"
+            android:text="Developers Tab"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dev3_description"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dev3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/dev3_img"
+            android:layout_toRightOf="@+id/dev3_img"
+            android:fontFamily="@font/montserrat_light"
+            android:gravity="left"
+            android:text="Developers Tab"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/dev3_img"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dev3_image" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_dev4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout_dev3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#cdffffff"
+        android:padding="10dp"
+        android:gravity="center"
+        android:elevation="17dp">
+
+        <TextView
+            android:id="@+id/dev4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/dev4_img"
+            android:layout_toRightOf="@+id/dev4_img"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_alignLeft="@+id/dev4_description"
+            android:layout_alignStart="@+id/dev4_description"
+            android:gravity="left"
+            android:text="Developers"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dev4_description"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dev4"
+            android:layout_toEndOf="@+id/dev4_img"
+            android:layout_toRightOf="@+id/dev4_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat_light"
+            android:gravity="left"
+            android:text="Developers"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/dev4_img"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dev6_image" />
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayout_dev5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout_dev4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:background="#cdffffff"
+            android:padding="10dp"
+            android:gravity="center"
+            android:elevation="17dp">
+
+            <TextView
+                android:id="@+id/dev5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/dev5_img"
+                android:layout_toRightOf="@+id/dev5_img"
+                android:fontFamily="@font/montserrat_semibold"
+                android:layout_alignLeft="@+id/dev5_description"
+                android:layout_alignStart="@+id/dev5_description"
+                android:gravity="left"
+                android:text="Developers"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dev5_description"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dev5"
+                android:layout_toEndOf="@+id/dev5_img"
+                android:layout_toRightOf="@+id/dev5_img"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:gravity="left"
+                android:text="Developers"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/dev5_img"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/dev5_image" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+</ScrollView>

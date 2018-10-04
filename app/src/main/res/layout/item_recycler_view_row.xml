@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardPreventCornerOverlap="false"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+    <!--android:background="?android:selectableItemBackground"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#01579b"
+        android:padding="8dp"
+        android:paddingLeft="11dp"
+        android:paddingStart="11dp"
+        android:paddingEnd="11dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginBottom="7dp"
+            android:layout_toLeftOf="@+id/rate"
+            android:layout_toStartOf="@+id/rate"
+            android:layout_alignBottom="@+id/rate"
+            android:src="@drawable/ic_512px_indian_rupee_symbolsvg" />
+
+        <TextView
+            android:id="@+id/location_circle"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/img_card"
+            android:contentDescription="@string/app_name"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="P"
+            android:textColor="#0d47a1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/BillId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/montserrat_thin"
+            android:hint="Bill Id"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/into"
+            android:layout_toStartOf="@id/into"
+            android:layout_alignBaseline="@+id/into"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="RT"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="item name"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/QTY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/item_name"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:hint="Q"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/location_circle"
+            android:layout_toEndOf="@+id/location_circle"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0.5dp"
+            android:hint="timestamp"
+            android:fontFamily="@font/montserrat_thin"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/into"
+            android:layout_width="18dp"
+            android:layout_height="22dp"
+            android:layout_toLeftOf="@+id/QTY"
+            android:layout_toStartOf="@+id/QTY"
+            android:layout_marginBottom="1dp"
+            android:layout_alignBaseline="@+id/QTY"
+            android:fontFamily="@font/montserrat_light"
+            android:textColor="#eeeeee"
+            android:text="X"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/billtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/BillId"
+            android:layout_toStartOf="@+id/BillId"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/montserrat_thin"
+            android:text="Bill Id -"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
